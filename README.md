@@ -6,15 +6,15 @@ This project showcases a comprehensive pipeline for object detection using the F
 
 ## Features
 
-	1) **Object Detection Inference**: Uses a pre-trained Florence-2 model to perform object detection on images. The results are annotated with bounding boxes and labels.
+	1) Object Detection Inference: Uses a pre-trained Florence-2 model to perform object detection on images. The results are annotated with bounding boxes and labels.
  
-	-Custom Dataset Handling: Defines a JSONLDataset class to handle datasets stored in JSONL format, and a DetectionDataset class for use in PyTorch. This setup enables efficient data loading and preprocessing.
+	2) Custom Dataset Handling: Defines a JSONLDataset class to handle datasets stored in JSONL format, and a DetectionDataset class for use in PyTorch. This setup enables efficient data loading and preprocessing.
  
-	-Model Training with LoRA: Implements a training loop for fine-tuning the Florence-2 model using the LoRA technique. This section includes dataset preparation, model configuration, and training procedures.
+	3) Model Training with LoRA: Implements a training loop for fine-tuning the Florence-2 model using the LoRA technique. This section includes dataset preparation, model configuration, and training procedures.
  
-	-Automated Image Annotation Pipeline: Provides a function to automatically annotate images in a specified folder. The annotations include bounding boxes and labels, which are then saved alongside the images.
+	4) Automated Image Annotation Pipeline: Provides a function to automatically annotate images in a specified folder. The annotations include bounding boxes and labels, which are then saved alongside the images.
  
-	-Automated Video Annotation Pipeline: Extracts frames from a video, performs object detection on each frame, and compiles the annotated frames back into a video. This feature allows for comprehensive video analysis.
+	5) Automated Video Annotation Pipeline: Extracts frames from a video, performs object detection on each frame, and compiles the annotated frames back into a video. This feature allows for comprehensive video analysis.
 
 ## Prerequisites
 
