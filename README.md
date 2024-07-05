@@ -6,7 +6,7 @@ This project showcases a comprehensive pipeline for object detection using the F
 
 ## Features
 
-	-Object Detection Inference: Uses a pre-trained Florence-2 model to perform object detection on images. The results are annotated with bounding boxes and labels.
+	-**Object Detection Inference**: Uses a pre-trained Florence-2 model to perform object detection on images. The results are annotated with bounding boxes and labels.
  
 	-Custom Dataset Handling: Defines a JSONLDataset class to handle datasets stored in JSONL format, and a DetectionDataset class for use in PyTorch. This setup enables efficient data loading and preprocessing.
  
